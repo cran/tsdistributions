@@ -12,7 +12,7 @@
 
 <meta name="author" content="Alexios Galanos" />
 
-<meta name="date" content="2024-03-14" />
+<meta name="date" content="2024-05-12" />
 
 <title>Profile Demo</title>
 
@@ -341,7 +341,7 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 <h1 class="title toc-ignore">Profile Demo</h1>
 <h4 class="author">Alexios Galanos</h4>
-<h4 class="date">2024-03-14</h4>
+<h4 class="date">2024-05-12</h4>
 
 
 
@@ -351,7 +351,7 @@ and then estimate the parameters given the simulated data, thus enabling
 the creation of parameter distributions under different size
 assumptions. The goal of the exercise is to understand how much
 variation under the true specified parameters we should expect given
-each data size given the algorihtms for estimation implemented in this
+each data size given the algorithms for estimation implemented in this
 package.</p>
 <p>When choosing <strong>n</strong> paths to generate for
 <strong>sizes</strong> of [400, 800, 1000], for instance, we simply
@@ -359,7 +359,7 @@ simulate n x max(sizes), creating a (max size) x nsim matrix
 <strong>S</strong>, and then for each path (i) and size (j) we estimate
 S[1:j, i]. Thus the simulated data in size 1000 will include the
 simulated data for sizes 400 and 800 for each path (i).</p>
-<p>The demonstation code below is illustrative of how to create a
+<p>The demonstration code below is illustrative of how to create a
 specification with fixed parameters which can then be passed to the
 tsprofile method. In real world applications, one should set nsim quite
 high and the sizes guided by problem specific considerations. The method
