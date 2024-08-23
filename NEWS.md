@@ -1,3 +1,10 @@
+# tsdistributions 1.0.2
+
+* Replaced PI with M_PI to pass strict header checks.
+* Fixed missing package link for bkde function in documentation.
+* Translated the distribution c functions to Rcpp.
+* Removed zoo dependency (not needed).
+
 # tsdistributions 1.0.1
 
 * Added the semi-parametric piece-wise distribution (`spd`). As this is a special

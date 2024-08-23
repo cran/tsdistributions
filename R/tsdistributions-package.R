@@ -3,15 +3,15 @@
 #' @importFrom TMB MakeADFun
 #' @import data.table
 #' @import methods
-#' @importFrom zoo coredata
 #' @importFrom SkewHyperbolic pskewhyp qskewhyp
-#' @importFrom GeneralizedHyperbolic ghypMom rghyp
+#' @importFrom GeneralizedHyperbolic ghypMom
 #' @importFrom KernSmooth bkde
 #' @importFrom Rsolnp solnp
 #' @importFrom sandwich estfun bwNeweyWest vcovHAC vcovOPG bread
 #' @importFrom stats dnorm integrate optim pnorm qnorm rnorm runif sd uniroot spline nlminb na.omit coef logLik printCoefmat ar lm logLik vcov AIC BIC ppoints approx rexp var
 #' @importFrom future.apply future_lapply
 #' @importFrom future %<-%
+#' @importFrom Rcpp evalCpp sourceCpp
 #' @importFrom progressr handlers progressor
 #' @importFrom mev fit.gpd dgp pgp qgp rgp
 #' @importFrom utils tail
